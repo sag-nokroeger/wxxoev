@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:mwk_antrag_0101</value>
+    <value name="node_pkg">WxXOEV</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">mwk:antrag.0101</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">@produkt</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03</value>
+                  <value name="ncName">datatypeC</value>
+                </record>
+              </array>
+              <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+            </record>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">@produkthersteller</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03</value>
+                  <value name="ncName">datatypeC</value>
+                </record>
+              </array>
+              <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+            </record>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">@produktversion</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="field_opt">true</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03</value>
+                  <value name="ncName">datatypeC</value>
+                </record>
+              </array>
+              <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+            </record>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">@standard</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03</value>
+                  <value name="ncName">datatypeC</value>
+                </record>
+              </array>
+              <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+            </record>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">@test</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="field_opt">true</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03</value>
+                  <value name="ncName">datatypeC</value>
+                </record>
+              </array>
+              <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+            </record>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">@version</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03</value>
+                  <value name="ncName">datatypeC</value>
+                </record>
+              </array>
+              <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+            </record>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">bn-g2g:nachrichtenkopf.g2g</value>
+            <value name="field_type">recref</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">http://xoev.de/schemata/basisnachricht/g2g/1_0</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">true</value>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+            <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_bn-g2g_Nachrichtenkopf.G2GType</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">antr:uuid</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                  <value name="ncName">UUID</value>
+                </record>
+              </array>
+              <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+            </record>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:antraege-anzeigen_1.1</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">antr:zeitstempel</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                  <value name="ncName">dateTime</value>
+                </record>
+              </array>
+            </record>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:antraege-anzeigen_1.1</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">mwk:wirtschaftlicheTaetigkeit</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">true</value>
+            <array name="rec_fields" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">rf:rechtsform</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="field_opt">true</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:rechtsform_1.1</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">rf:rechtsformcode</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:rechtsform_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_rf_Code.Rechtsformen</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">field</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">ename:eingetragenerName</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="field_opt">true</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                      <value name="ncName">String.DIN91379.C</value>
+                    </record>
+                  </array>
+                  <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                </record>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:eingetragenername_1.1</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">field</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">wt:geschaeftsbezeichnung</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="field_opt">true</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                      <value name="ncName">String.DIN91379.C</value>
+                    </record>
+                  </array>
+                  <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                </record>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">eintr:eintragung</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="field_opt">true</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:eintragung_1.1</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">eintr:artEintragung</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:eintragung_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_eintr_Code.ArtDerEintragung</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">eintr:registergericht.code</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:eintragung_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_eintr_Code.Registergericht</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">eintr:registergericht.bezeichnung</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">String.DIN91379.C</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:eintragung_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">eintr:stiftungsverzeichnis</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">String.DIN91379.C</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:eintragung_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">adr:ort</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">String.DIN91379.C</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">adr:staat</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_adr_StaatType</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">eintr:eintragungsnummer</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">String.DIN91379.C</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:eintragung_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">adr:anschrift</value>
+                <value name="field_type">recref</value>
+                <value name="field_dim">1</value>
+                <value name="field_opt">true</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <value name="is_soap_array_encoding_used">false</value>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+                <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_adr_AnschriftType</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">kom:kommunikation</value>
+                <value name="field_type">recref</value>
+                <value name="field_dim">1</value>
+                <value name="field_opt">true</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:kommunikation_1.1</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <value name="is_soap_array_encoding_used">false</value>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+                <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docType_kom_kommunikation</value>
+              </record>
+            </array>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">antr:handelndePerson.id</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="field_opt">true</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                  <value name="ncName">IDType</value>
+                </record>
+              </array>
+              <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+            </record>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:antraege-anzeigen_1.1</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">antr:ansprechpartner.id</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="field_opt">true</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                  <value name="ncName">IDType</value>
+                </record>
+              </array>
+              <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+            </record>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:antraege-anzeigen_1.1</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">mwk:abweichenderArbeitgeber</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="field_opt">true</value>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">true</value>
+            <array name="rec_fields" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">field</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:name</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                      <value name="ncName">String.DIN91379.C</value>
+                    </record>
+                  </array>
+                  <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                </record>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">true</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">adr:anschrift</value>
+                <value name="field_type">recref</value>
+                <value name="field_dim">0</value>
+                <value name="field_opt">true</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+                <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_adr_AnschriftType</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">kom:kommunikation</value>
+                <value name="field_type">recref</value>
+                <value name="field_dim">1</value>
+                <value name="field_opt">true</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:kommunikation_1.1</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <value name="is_soap_array_encoding_used">false</value>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+                <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docType_kom_kommunikation</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">field</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:vorliegendeLegitimationsdokumente</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="field_opt">true</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">boolean</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">true</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">field</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:anlage.id</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">1</value>
+                <value name="field_opt">true</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                      <value name="ncName">IDType</value>
+                    </record>
+                  </array>
+                  <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                </record>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">true</value>
+                <value name="is_global">false</value>
+                <value name="is_soap_array_encoding_used">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">field</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:ansprechpartner.id</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="field_opt">true</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                      <value name="ncName">IDType</value>
+                    </record>
+                  </array>
+                  <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                </record>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">true</value>
+                <value name="is_global">false</value>
+              </record>
+            </array>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">mwk:empfaengerGebuehrenbescheid</value>
+            <value name="field_type">recref</value>
+            <value name="field_dim">0</value>
+            <value name="field_opt">true</value>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+            <value name="form_qualified">true</value>
+            <value name="is_global">false</value>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+            <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_mwk_AbweichenderBescheidempfaenger</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">mwk:veranstaltungProjekt</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">true</value>
+            <array name="rec_fields" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">field</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:titel</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                      <value name="ncName">String.DIN91379.C</value>
+                    </record>
+                  </array>
+                  <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                </record>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">true</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:veranstaltungszeitraum</value>
+                <value name="field_type">recref</value>
+                <value name="field_dim">0</value>
+                <value name="field_opt">true</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">true</value>
+                <value name="is_global">false</value>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+                <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_mwk_AngabenZeitraum</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:beschaeftigungsart</value>
+                <value name="field_type">recref</value>
+                <value name="field_dim">0</value>
+                <value name="field_opt">true</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">true</value>
+                <value name="is_global">false</value>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+                <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_mwk_Code.ArtBeschaeftigung</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">field</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:inhaltBeschaeftigung</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="field_opt">true</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                      <value name="ncName">String.DIN91379.C</value>
+                    </record>
+                  </array>
+                  <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                </record>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">true</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">field</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:anlage.id</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">1</value>
+                <value name="field_opt">true</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                      <value name="ncName">IDType</value>
+                    </record>
+                  </array>
+                  <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                </record>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">true</value>
+                <value name="is_global">false</value>
+                <value name="is_soap_array_encoding_used">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:beschaeftigung</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">1</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <value name="is_soap_array_encoding_used">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:zeitraum</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">0</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_mwk_AngabenZeitraum</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:stundenzahl</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">duration</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:betreuungsperson.id</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">IDType</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:kind.id</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">IDType</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:ort.id</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">IDType</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+            </array>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">mwk:anlage.id</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">1</value>
+            <value name="field_opt">true</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                  <value name="ncName">IDType</value>
+                </record>
+              </array>
+              <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+            </record>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+            <value name="form_qualified">true</value>
+            <value name="is_global">false</value>
+            <value name="is_soap_array_encoding_used">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">mwk:referenzen</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">true</value>
+            <array name="rec_fields" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:kind</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">1</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <value name="is_soap_array_encoding_used">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">np:natuerlichePerson.id</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">IDType</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:natuerlicheperson_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">np:name</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">0</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:natuerlicheperson_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docType_np_name</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">kom:kommunikation</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">1</value>
+                    <value name="field_opt">true</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:kommunikation_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="is_soap_array_encoding_used">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docType_kom_kommunikation</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">adr:anschrift</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">1</value>
+                    <value name="field_opt">true</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="is_soap_array_encoding_used">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_adr_AnschriftType</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">np:geburt</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:natuerlicheperson_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docType_np_geburt</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:schulpflichtig</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">boolean</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:sorgeberechtigtePerson.id</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">1</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">IDType</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                    <value name="is_soap_array_encoding_used">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:alleinigesSorgerecht</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">boolean</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:anlage.id</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">1</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">IDType</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                    <value name="is_soap_array_encoding_used">false</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:sonstigeNatuerlichePerson</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">1</value>
+                <value name="field_opt">true</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <value name="is_soap_array_encoding_used">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">np:natuerlichePerson.id</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">IDType</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:natuerlicheperson_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">np:name</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">0</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:natuerlicheperson_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docType_np_name</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">np:geburt</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:natuerlicheperson_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docType_np_geburt</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">adr:anschrift</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">1</value>
+                    <value name="field_opt">true</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="is_soap_array_encoding_used">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_adr_AnschriftType</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">kom:kommunikation</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">1</value>
+                    <value name="field_opt">true</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:kommunikation_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="is_soap_array_encoding_used">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docType_kom_kommunikation</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">mwk:beschaeftigungsort</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">1</value>
+                <value name="nillable">false</value>
+                <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <value name="is_soap_array_encoding_used">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:ort.id</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">IDType</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:ortsbezeichnung</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">String.DIN91379.C</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">adr:anschrift</value>
+                    <value name="field_type">recref</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                    <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_adr_AnschriftType</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:istPostadresse</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">boolean</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:ortsbeschreibung</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">String.DIN91379.C</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">field</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mwk:verantwortlichePerson.id</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <value name="field_opt">true</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                          <value name="ncName">IDType</value>
+                        </record>
+                      </array>
+                      <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+                    <value name="form_qualified">true</value>
+                    <value name="is_global">false</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+            </array>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">nachr:nachweisdokument.onlinedienst</value>
+            <value name="field_type">recref</value>
+            <value name="field_dim">1</value>
+            <value name="field_opt">true</value>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:nachrichtenstruktur_1.1</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">true</value>
+            <value name="is_soap_array_encoding_used">false</value>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+            <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_nachr_NachweisdokumentType</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">nachr:nachweisdokument.upload</value>
+            <value name="field_type">recref</value>
+            <value name="field_dim">1</value>
+            <value name="field_opt">true</value>
+            <value name="nillable">false</value>
+            <value name="field_xmlns">urn:xoev-de:xunternehmen:standard:basismodul:nachrichtenstruktur_1.1</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">true</value>
+            <value name="is_soap_array_encoding_used">false</value>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+            <value name="rec_ref">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:docTypeRef_nachr_NachweisdokumentType</value>
+          </record>
+        </array>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>

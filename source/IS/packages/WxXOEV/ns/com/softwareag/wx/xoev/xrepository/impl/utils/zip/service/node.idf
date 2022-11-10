@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">com.softwareag.wx.xoev.xrepository.impl.utils.zip.service</value>
+  <value name="is_public">false</value>
+  <value name="encodeutf8">true</value>
+  <value name="shared">cHJpdmF0ZSBzdGF0aWMgY2xhc3MgVW56aXBTY2hlbWFQYWNrYWdlVG9Mb2NhbEZTSW5wdXR7CgkK
+CXByaXZhdGUgSURhdGFNYXAgcGxNYXA7CgkKCXB1YmxpYyBVbnppcFNjaGVtYVBhY2thZ2VUb0xv
+Y2FsRlNJbnB1dChJRGF0YSBwaXBlbGluZSl7CgkJdGhpcy5wbE1hcCA9IG5ldyBJRGF0YU1hcChw
+aXBlbGluZSk7Cgl9CgkKCXB1YmxpYyBaaXBJbnB1dFN0cmVhbSBnZXRTY2hlbWFQYWNrYWdlWmlw
+cGVkU3RyZWFtKCl7CgkJcmV0dXJuIG5ldyBaaXBJbnB1dFN0cmVhbSAoKElucHV0U3RyZWFtKSBw
+bE1hcC5nZXQoInNjaGVtYVBhY2thZ2VaaXBwZWRTdHJlYW0iKSk7Cgl9Cn07CgoKcHJpdmF0ZSBz
+dGF0aWMgY2xhc3MgVW56aXBTY2hlbWFQYWNrYWdlVG9Mb2NhbEZTT3V0cHV0ewoJCglwcml2YXRl
+IElEYXRhTWFwIHBsTWFwOwoJCglwdWJsaWMgVW56aXBTY2hlbWFQYWNrYWdlVG9Mb2NhbEZTT3V0
+cHV0KElEYXRhIHBpcGVsaW5lKXsKCQl0aGlzLnBsTWFwID0gbmV3IElEYXRhTWFwKHBpcGVsaW5l
+KTsKCX0KCQoJcHVibGljIFN0cmluZ1tdIGdldFNjaGVtYUZpbGVzKCl7CgkJcmV0dXJuIHBsTWFw
+LmdldEFzU3RyaW5nQXJyYXkoInNjaGVtYUZpbGVzIik7Cgl9CgkKCXB1YmxpYyB2b2lkIHNldFNj
+aGVtYUZpbGVzKFN0cmluZ1tdIHNjaGVtYUZpbGVzKXsKCQlwbE1hcC5wdXQoInNjaGVtYUZpbGVz
+Iiwgc2NoZW1hRmlsZXMpOwoJfQoJCglwdWJsaWMgU3RyaW5nW10gZ2V0U2NoZW1hUGF0aHMoKXsK
+CQlyZXR1cm4gcGxNYXAuZ2V0QXNTdHJpbmdBcnJheSgic2NoZW1hUGF0aHMiKTsKCX0KCQoJcHVi
+bGljIHZvaWQgc2V0U2NoZW1hUGF0aHMoU3RyaW5nW10gc2NoZW1hUGF0aHMpewoJCXBsTWFwLnB1
+dCgic2NoZW1hUGF0aHMiLCBzY2hlbWFQYXRocyk7Cgl9CgkKCXB1YmxpYyB2b2lkIHNldFNjaGVt
+YVRtcERpcihTdHJpbmcgc2NoZW1hVG1wRGlyKXsKCQlwbE1hcC5wdXQoInNjaGVtYVRtcERpciIs
+IHNjaGVtYVRtcERpcik7Cgl9CgkKCXB1YmxpYyBTdHJpbmcgZ2V0U2NoZW1hVG1wRGlyKCl7CgkJ
+cmV0dXJuIHBsTWFwLmdldEFzU3RyaW5nKCJzY2hlbWFUbXBEaXIiLCAiIik7Cgl9Cn07CQ==</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.util.LinkedList</value>
+    <value>java.util.List</value>
+    <value>java.io.File</value>
+    <value>java.io.FileOutputStream</value>
+    <value>java.io.IOException</value>
+    <value>java.io.InputStream</value>
+    <value>java.util.zip.ZipEntry</value>
+    <value>java.util.zip.ZipInputStream</value>
+    <value>com.softwareag.util.IDataMap</value>
+    <value>java.util.UUID</value>
+  </array>
+</Values>

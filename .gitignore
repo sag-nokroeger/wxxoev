@@ -1,0 +1,6 @@
+*.xml.bak
+manifest.v3.bak
+*.class
+*.frag
+**/bin/*
+**/reports/*

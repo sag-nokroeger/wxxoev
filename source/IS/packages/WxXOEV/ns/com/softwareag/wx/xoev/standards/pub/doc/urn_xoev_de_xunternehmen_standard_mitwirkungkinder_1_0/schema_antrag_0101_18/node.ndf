@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="schema" javaclass="com.wm.util.Values">
+    <value name="node_type">schema</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0:schema_antrag_0101_18</value>
+    <value name="node_pkg">WxXOEV</value>
+    <value name="is_public">false</value>
+    <value name="contentType">3</value>
+    <value name="targetNamespace">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+    <value name="schemaDomain">com.softwareag.wx.xoev.standards.pub.doc.urn_xoev_de_xunternehmen_standard_mitwirkungkinder_1_0</value>
+    <record name="attributes" javaclass="com.wm.util.Values">
+      <list name="table">
+      </list>
+    </record>
+    <record name="elements" javaclass="com.wm.util.Values">
+      <list name="table">
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">wirtschaftlicheTaetigkeit</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                  <value name="ncName">bundeseinheitlicheWirtschaftsnummer</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:rechtsform_1.1</value>
+                  <value name="ncName">rechtsform</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                  <value name="ncName">wirtschaftlichTaetiger</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                  <value name="ncName">taetigkeit</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                  <value name="ncName">wirtschaftszweigschluessel</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:eingetragenername_1.1</value>
+                  <value name="ncName">eingetragenerName</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:eintragung_1.1</value>
+                  <value name="ncName">eintragung</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+                  <value name="ncName">anschrift</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                  <value name="ncName">geschaeftsbezeichnung</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:kommunikation_1.1</value>
+                  <value name="ncName">kommunikation</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                  <value name="ncName">betriebsstaette</value>
+                </record>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                    <value name="ncName">bundeseinheitlicheWirtschaftsnummer</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:rechtsform_1.1</value>
+                    <value name="ncName">rechtsform</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                    <value name="ncName">wirtschaftlichTaetiger</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                    <value name="ncName">taetigkeit</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                    <value name="ncName">wirtschaftszweigschluessel</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">*</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:eingetragenername_1.1</value>
+                    <value name="ncName">eingetragenerName</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:eintragung_1.1</value>
+                    <value name="ncName">eintragung</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+                    <value name="ncName">anschrift</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">*</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                    <value name="ncName">geschaeftsbezeichnung</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:kommunikation_1.1</value>
+                    <value name="ncName">kommunikation</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">*</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                    <value name="ncName">betriebsstaette</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">*</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">taetigkeit</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">1</value>
+            <value name="internalType">reference</value>
+            <value name="dataTypeVersion">dtVersion2</value>
+            <array name="targetNames" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                <value name="ncName">String.DIN91379.C</value>
+              </record>
+            </array>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">artBetriebsstaette</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">reference</value>
+            <record name="targetName" javaclass="com.wm.util.Values">
+              <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+              <value name="ncName">Code.ArtNiederlassung</value>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">wirtschaftszweigschluessel</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <record name="pattern" javaclass="com.wm.util.Values">
+              <array name="pattern" type="value" depth="1">
+                <value>\d{2,5}</value>
+              </array>
+            </record>
+            <value name="contentType">1</value>
+            <value name="internalType">instance</value>
+            <value name="ct_class">com.wm.lang.schema.datatypev2.WmString</value>
+            <value name="name">string</value>
+            <array name="parent-ancestors" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                <value name="ncName">anySimpleType</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                <value name="ncName">anyType</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                <value name="ncName">string</value>
+              </record>
+            </array>
+            <record name="baseType" javaclass="com.wm.util.Values">
+              <record name="pattern" javaclass="com.wm.util.Values">
+                <array name="pattern" type="value" depth="1">
+                  <value>([ - ]| |[ -~]|[ -¬]|[®-ž]|[Ƈ-ƈ]|Ə|Ɨ|[Ơ-ơ]|[Ư-ư]|Ʒ|[Ǎ-ǜ]|[Ǟ-ǟ]|[Ǣ-ǰ]|[Ǵ-ǵ]|[Ǹ-ǿ]|[Ȓ-ȓ]|[Ș-ț]|[Ȟ-ȟ]|[ȧ-ȳ]|ə|ɨ|ʒ|[ʹ-ʺ]|[ʾ-ʿ]|ˈ|ˌ|[Ḃ-ḃ]|[Ḇ-ḇ]|[Ḋ-ḑ]|[Ḝ-ḫ]|[ḯ-ḷ]|[Ḻ-ḻ]|[Ṁ-ṉ]|[Ṓ-ṛ]|[Ṟ-ṣ]|[Ṫ-ṯ]|[Ẁ-ẇ]|[Ẍ-ẗ]|ẞ|[Ạ-ỹ]|’|‡|€|A̋|C(̀|̄|̆|̈|̕|̣|̦|̨̆)|D̂|F(̀|̄)|G̀|H(̄|̦|̱)|J(́|̌)|K(̀|̂|̄|̇|̕|̛|̦|͟H|͟h)|L(̂|̥|̥̄|̦)|M(̀|̂|̆|̐)|N(̂|̄|̆|̦)|P(̀|̄|̕|̣)|R(̆|̥|̥̄)|S(̀|̄|̛̄|̱)|T(̀|̄|̈|̕|̛)|U̇|Z(̀|̄|̆|̈|̧)|a̋|c(̀|̄|̆|̈|̕|̣|̦|̨̆)|d̂|f(̀|̄)|g̀|h(̄|̦)|j́|k(̀|̂|̄|̇|̕|̛|̦|͟h)|l(̂|̥|̥̄|̦)|m(̀|̂|̆|̐)|n(̂|̄|̆|̦)|p(̀|̄|̕|̣)|r(̆|̥|̥̄)|s(̀|̄|̛̄|̱)|t(̀|̄|̕|̛)|u̇|z(̀|̄|̆|̈|̧)|Ç̆|Û̄|ç̆|û̄|ÿ́|Č(̕|̣)|č(̕|̣)|Ī́|ī́|Ž(̦|̧)|ž(̦|̧)|Ḳ̄|ḳ̄|Ṣ̄|ṣ̄|Ṭ̄|ṭ̄|Ạ̈|ạ̈|Ọ̈|ọ̈|Ụ(̄|̈)|ụ(̄|̈))*</value>
+                </array>
+              </record>
+              <record name="whiteSpace" javaclass="com.wm.util.Values">
+                <record name="FacetWSCValue" javaclass="com.wm.util.Values">
+                  <value name="cDecimalValue">3</value>
+                </record>
+                <value name="facetFixed">false</value>
+              </record>
+              <value name="contentType">1</value>
+              <value name="internalType">instance</value>
+              <value name="ct_class">com.wm.lang.schema.datatypev2.WmString</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+            </record>
+            <value name="dataTypeVersion">dtVersion2</value>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">betriebsstaette</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                  <value name="ncName">artBetriebsstaette</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+                  <value name="ncName">anschrift</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                  <value name="ncName">geschaeftsbezeichnung</value>
+                </record>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:kommunikation_1.1</value>
+                  <value name="ncName">kommunikation</value>
+                </record>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                    <value name="ncName">artBetriebsstaette</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+                    <value name="ncName">anschrift</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">*</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                    <value name="ncName">geschaeftsbezeichnung</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:kommunikation_1.1</value>
+                    <value name="ncName">kommunikation</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">*</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">wirtschaftlichTaetiger.id</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">1</value>
+            <value name="internalType">reference</value>
+            <value name="dataTypeVersion">dtVersion2</value>
+            <array name="targetNames" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                <value name="ncName">IDType</value>
+              </record>
+            </array>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">bundeseinheitlicheWirtschaftsnummer</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">1</value>
+            <value name="internalType">reference</value>
+            <value name="dataTypeVersion">dtVersion2</value>
+            <array name="targetNames" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                <value name="ncName">String.DIN91379.C</value>
+              </record>
+            </array>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">wirtschaftlichTaetiger</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                  <value name="ncName">wirtschaftlichTaetiger.id</value>
+                </record>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+                    <value name="ncName">wirtschaftlichTaetiger.id</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">geschaeftsbezeichnung</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">1</value>
+            <value name="internalType">reference</value>
+            <value name="dataTypeVersion">dtVersion2</value>
+            <array name="targetNames" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1</value>
+                <value name="ncName">String.DIN91379.C</value>
+              </record>
+            </array>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+      </list>
+    </record>
+    <record name="types" javaclass="com.wm.util.Values">
+      <list name="table">
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">Code.ArtNiederlassung</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="name">code</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">token</value>
+                  </record>
+                </array>
+              </record>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">listURI</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">anyURI</value>
+                  </record>
+                </array>
+              </record>
+              <value name="fixed">urn:xoev-de:xunternehmen:codeliste:artniederlassung</value>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">listVersionID</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">normalizedString</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="ncName">code</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://xoev.de/schemata/code/1_0</value>
+              <value name="ncName">Code</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+              <value name="ncName">Code.ArtNiederlassung</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+      </list>
+    </record>
+    <record name="uriReferencePrefixPairs" javaclass="com.wm.util.Values">
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:sitze_1.1">sitze</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:eingetragenername_1.1">ename</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:rechtsform_1.1">rf</value>
+      <value name="http://xoev.de/schemata/basisnachricht/kommunikation/1_0">bn-kom</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1">adr</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:gesetzlichervertreter_1.1">gv</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:basisdatentypen_1.1">bdt</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:antraege-anzeigen_1.1">antr</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:nachrichtenstruktur_1.1">nachr</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:juristischeperson_1.1">jp</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:sonstigepersonenvereinigung_1.1">spv</value>
+      <value name="http://www.w3.org/2001/XMLSchema">xs</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:gesellschafter_1.1">ges</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:natuerlicheperson_1.1">np</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1">wt</value>
+      <value name="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03">dinspec91379</value>
+      <value name="http://xoev.de/schemata/code/1_0">xoev-code</value>
+      <value name="urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0">mwk</value>
+      <value name="http://xoev.de/schemata/basisnachricht/behoerde/1_0">bn-beh</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:rechtsfaehigepersonengesellschaft_1.1">rpg</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:datumsangaben_1.1">dat</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:eintragung_1.1">eintr</value>
+      <value name="http://xoev.de/schemata/basisnachricht/g2g/1_0">bn-g2g</value>
+      <value name="urn:xoev-de:xunternehmen:standard:basismodul:kommunikation_1.1">kom</value>
+    </record>
+    <value name="modifiable">true</value>
+  </record>
+</Values>

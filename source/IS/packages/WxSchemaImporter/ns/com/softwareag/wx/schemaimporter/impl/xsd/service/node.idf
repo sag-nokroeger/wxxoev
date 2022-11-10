@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="encodeutf8">true</value>
+  <value name="shared">cHJpdmF0ZSBzdGF0aWMgY2xhc3MgR2V0UHJlZml4Rm9yTmFtZXNwYWNlRnJvbVBpcGVsaW5lSW5w
+dXR7CgkKCXByaXZhdGUgSURhdGFNYXAgcGxNYXA7CgkKCXB1YmxpYyBHZXRQcmVmaXhGb3JOYW1l
+c3BhY2VGcm9tUGlwZWxpbmVJbnB1dChJRGF0YSBwaXBlbGluZSl7CgkJcGxNYXAgPSBuZXcgSURh
+dGFNYXAocGlwZWxpbmUpOwoJfQoJCglwdWJsaWMgSURhdGFNYXAgZ2V0TmFtZXNwYWNlVG9QcmVm
+aXhNYXBwaW5nKCl7CgkJcmV0dXJuIHBsTWFwLmdldEFzSURhdGFNYXAoIm5hbWVzcGFjZVRvUHJl
+Zml4TWFwcGluZyIsIG5ldyBJRGF0YU1hcCgpKTsKCX0KCQoJcHVibGljIFN0cmluZyBnZXROYW1l
+c3BhY2UoKXsKCQlyZXR1cm4gcGxNYXAuZ2V0QXNTdHJpbmcoIm5hbWVzcGFjZSIsICIiKTsKCX0K
+fTsKCnByaXZhdGUgc3RhdGljIGNsYXNzIEdldFByZWZpeEZvck5hbWVzcGFjZUZyb21QaXBlbGlu
+ZU91dHB1dHsKCQoJcHJpdmF0ZSBJRGF0YU1hcCBwbE1hcDsKCQoJcHVibGljIEdldFByZWZpeEZv
+ck5hbWVzcGFjZUZyb21QaXBlbGluZU91dHB1dChJRGF0YSBwaXBlbGluZSl7CgkJcGxNYXAgPSBu
+ZXcgSURhdGFNYXAocGlwZWxpbmUpOwoJfQoJCglwdWJsaWMgdm9pZCBzZXRQcmVmaXgoU3RyaW5n
+IHByZWZpeCl7CgkJcGxNYXAucHV0KCJwcmVmaXgiLCBwcmVmaXgpOwoJfQoJCglwdWJsaWMgU3Ry
+aW5nIGdldFByZWZpeCgpewoJCXJldHVybiBwbE1hcC5nZXRBc1N0cmluZygicHJlZml4Iik7Cgl9
+Cn07CQ==</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.softwareag.util.IDataMap</value>
+  </array>
+</Values>

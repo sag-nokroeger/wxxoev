@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<Values version="2.0">
-  <value name="hw">http://www.xunternehmen-nrw.de/spezifikation/handwerk/1.0</value>
-  <value name="kern">http://www.xunternehmen-nrw.de/spezifikation/kerndaten/1.0</value>
-  <value name="xoev-code">http://xoev.de/schemata/code/1_0</value>
-</Values>

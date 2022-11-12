@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="svrl">http://purl.oclc.org/dsdl/svrl</value>
+  <value name="xml">http://www.w3.org/XML/1998/namespace</value>
+</Values>

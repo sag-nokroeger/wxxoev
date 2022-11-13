@@ -1,0 +1,30 @@
+
+#wxxoev-schemavalidationresult-header.heading-validation-OK{
+    color: white;
+    background-color: green;
+} 
+
+#wxxoev-schemavalidationresult-header.heading-validation-FAILED{
+    color: white;
+    background-color: red;
+} 
+
+#wxxoev-schemavalidationresult-header.heading-validation-SKIPPED{
+    color: white;
+    background-color: grey;
+} 
+
+#wxxoev-schematronvalidationresult-header.heading-validation-OK{
+    color: white;
+    background-color: green;
+} 
+
+#wxxoev-schematronvalidationresult-header.heading-validation-FAILED{
+    color: white;
+    background-color: red;
+} 
+
+#wxxoev-schematronvalidationresult-header.heading-validation-SKIPPED{
+    color: white;
+    background-color: grey;
+}  

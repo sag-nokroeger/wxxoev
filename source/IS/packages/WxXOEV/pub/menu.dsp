@@ -68,7 +68,25 @@ function initMenu(firstImage) {
         </td>
       </tr>
 
-        <tr name="WxXOEV_subMenu" style="display: table-row;">
+        <tr name="WxXOEV_subMenu_2" style="display: table-row;">
+  <td id="ivalidation.dsp" class="menuitem " onmouseover="menuMouseOver(this, 'validation.dsp');" onmouseout="menuMouseOut(this, 'validation.dsp');" onclick="menuSelect(this, 'validation.dsp'); document.all['avalidation.dsp'].click();" style="background-color: rgb(255, 255, 255);">
+            
+          
+          
+            <script>
+              if (is_csrf_guard_enabled && needToInsertToken) {
+                createFormWithTargetAndSetProperties("htmlform_menu_subelement_WxXOEV_Validation", "validation.dsp", "POST", "BODY", "body");
+                setFormProperty("htmlform_menu_subelement_WxXOEV_Validation", _csrfTokenNm_, _csrfTokenVal_);
+                document.write('<a id="avalidation.dsp" href="javascript:htmlform_menu_subelement_WxXOEV_Validation.submit()"> Validation </a>');
+              } else {
+                document.write('<a id="avalidation.dsp" target="body" href="validation.dsp"> Validation </a>');
+              }
+            </script>
+                              
+        </td>
+      </tr>      
+
+        <tr name="WxXOEV_subMenu_3" style="display: table-row;">
   <td id="itn-doctypes.dsp" class="menuitem " onmouseover="menuMouseOver(this, 'tn-doctypes.dsp');" onmouseout="menuMouseOut(this, 'tn-doctypes.dsp');" onclick="menuSelect(this, 'tn-doctypes.dsp'); document.all['atn-doctypes.dsp'].click();" style="background-color: rgb(255, 255, 255);">
             
           

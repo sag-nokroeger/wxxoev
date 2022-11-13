@@ -26,7 +26,8 @@
 					<tr>
 						<td width="20%" class="evenrow-l"><p>Version</p></td>
 						<td width="80%" class="evenrow-l"><p>%value standardVersion%</p></td>
-					</tr>						
+					</tr>
+					%ifvar schemaFilesAsString -notempty%						
 					<tr>
 						<td width="20%" class="oddrow-l"><p>Temporary directory</p></td>
 						<td width="80%" class="oddrow-l"><p>%value schemaTmpDir%</p></td>
@@ -42,6 +43,12 @@
 							</select>						
 						</td>
 					</tr>
+					%else%
+					<tr>
+						<td width="20%" class="oddrow-l"><p>Result</p></td>
+						<td width="80%" class="oddrow-l"><p>No schema could be retrieved from xrepository for standard %value standardName% and version %value standardVersion%. Check <a target="_blank" href="https://www.xrepository.de/details/%value standardName%">xrepository</a> for the standard to see which versions exist.</p></td>
+					</tr>					
+					%endifvar%
 			  <TR>
 				<TD class="action" colspan="2">
 					  <INPUT type="hidden" name="action" value="select-file"/>

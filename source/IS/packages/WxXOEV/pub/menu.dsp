@@ -85,7 +85,9 @@ function initMenu(firstImage) {
                               
         </td>
       </tr>      
-
+      %invoke com.softwareag.wx.xoev.xrepository.pub.service.ui:isWmTNInstalledAndEnabled%
+      %ifvar exists equals('true')%
+      %ifvar enabled equals('true')%
         <tr name="WxXOEV_subMenu_3" style="display: table-row;">
   <td id="itn-doctypes.dsp" class="menuitem " onmouseover="menuMouseOver(this, 'tn-doctypes.dsp');" onmouseout="menuMouseOut(this, 'tn-doctypes.dsp');" onclick="menuSelect(this, 'tn-doctypes.dsp'); document.all['atn-doctypes.dsp'].click();" style="background-color: rgb(255, 255, 255);">
             
@@ -103,6 +105,9 @@ function initMenu(firstImage) {
                               
         </td>
       </tr>
+      %endfifvar%
+      %endifvar%
+      %endinvoke com.softwareag.wx.xoev.xrepository.pub.service.ui:isWmTNInstalledAndEnabled%
       
       <script>menuSelect('', 'schema-import.dsp')</script>
 

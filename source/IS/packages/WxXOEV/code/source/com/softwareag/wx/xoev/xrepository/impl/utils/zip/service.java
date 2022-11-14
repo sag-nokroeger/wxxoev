@@ -9,8 +9,10 @@ import com.wm.app.b2b.server.ServiceException;
 // --- <<IS-START-IMPORTS>> ---
 import java.util.LinkedList;
 import java.util.List;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.zip.ZipEntry;
@@ -53,6 +55,7 @@ public final class service
 		List<String> schemaFiles = new LinkedList<String>();
 		try {
 			entry = zis.getNextEntry();
+		
 			File destDir = new File(System.getProperty("java.io.tmpdir")+File.separator+UUID.randomUUID());
 			destDir.mkdirs();
 			output.setSchemaTmpDir(destDir.getAbsolutePath());
@@ -76,12 +79,13 @@ public final class service
 					int bufferLength;
 					while ((bufferLength = zis.read(buffer)) > 0){
 						fos.write(buffer, 0, bufferLength);
+						fos.flush();
 					}
 					fos.close();
 					schemaPaths.add(destFile.getAbsolutePath());
 					schemaFiles.add(destFile.getName());
-					entry = zis.getNextEntry();
 				}
+				entry = zis.getNextEntry();
 			}		
 			output.setSchemaFiles(schemaFiles.toArray(new String[schemaFiles.size()]));
 			output.setSchemaPaths(schemaPaths.toArray(new String[schemaPaths.size()]));

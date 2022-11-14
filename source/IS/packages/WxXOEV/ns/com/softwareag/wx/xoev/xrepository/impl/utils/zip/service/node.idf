@@ -31,8 +31,10 @@ cmV0dXJuIHBsTWFwLmdldEFzU3RyaW5nKCJzY2hlbWFUbXBEaXIiLCAiIik7Cgl9Cn07CQ==</value>
   <array name="imports" type="value" depth="1">
     <value>java.util.LinkedList</value>
     <value>java.util.List</value>
+    <value>java.io.BufferedWriter</value>
     <value>java.io.File</value>
     <value>java.io.FileOutputStream</value>
+    <value>java.io.FileWriter</value>
     <value>java.io.IOException</value>
     <value>java.io.InputStream</value>
     <value>java.util.zip.ZipEntry</value>

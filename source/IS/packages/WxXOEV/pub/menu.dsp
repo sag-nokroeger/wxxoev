@@ -1,5 +1,6 @@
 <HTML>
 <HEAD>
+<LINK REL="stylesheet" TYPE="text/css" HREF="WxXOEV.css">
 <LINK REL="stylesheet" TYPE="text/css" HREF="../WmRoot/webMethods.css">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
@@ -38,7 +39,7 @@ function initMenu(firstImage) {
       <input type="hidden" name="helpURL" value="doc/OnlineHelp/WmRoot.htm#CS_Server_Statistics.htm">
     </form>
 
-    <table class="menuTable" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <table class="menuTable" width="100%" cellspacing="0" cellpadding="0">
 
       
         <tbody><tr manualhide="false" onclick="toggle(this, 'WxXOEV_subMenu', 'WxXOEV_twistie');" onmouseover="this.className='cursor';" class="cursor">
@@ -50,7 +51,7 @@ function initMenu(firstImage) {
 </tr>
       
       
-        <tr name="WxXOEV_subMenu_1" style="display: table-row;">
+        <tr name="WxXOEV_subMenu" style="display: table-row;">
   <td id="ischema-import.dsp" class="menuitem " onmouseover="menuMouseOver(this, 'schema-import.dsp');" onmouseout="menuMouseOut(this, 'schema-import.dsp');" onclick="menuSelect(this, 'schema-import.dsp'); document.all['aschema-import.dsp'].click();" style="background-color: rgb(23, 118, 191);">
             
           
@@ -68,7 +69,7 @@ function initMenu(firstImage) {
         </td>
       </tr>
 
-        <tr name="WxXOEV_subMenu_2" style="display: table-row;">
+        <tr name="WxXOEV_subMenu" style="display: table-row;">
   <td id="ivalidation.dsp" class="menuitem " onmouseover="menuMouseOver(this, 'validation.dsp');" onmouseout="menuMouseOut(this, 'validation.dsp');" onclick="menuSelect(this, 'validation.dsp'); document.all['avalidation.dsp'].click();" style="background-color: rgb(255, 255, 255);">
             
           
@@ -88,7 +89,7 @@ function initMenu(firstImage) {
       %invoke com.softwareag.wx.xoev.xrepository.pub.service.ui:isWmTNInstalledAndEnabled%
       %ifvar exists equals('true')%
       %ifvar enabled equals('true')%
-        <tr name="WxXOEV_subMenu_3" style="display: table-row;">
+        <tr name="WxXOEV_subMenu" style="display: table-row;">
   <td id="itn-doctypes.dsp" class="menuitem " onmouseover="menuMouseOver(this, 'tn-doctypes.dsp');" onmouseout="menuMouseOut(this, 'tn-doctypes.dsp');" onclick="menuSelect(this, 'tn-doctypes.dsp'); document.all['atn-doctypes.dsp'].click();" style="background-color: rgb(255, 255, 255);">
             
           

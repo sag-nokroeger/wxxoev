@@ -1,8 +1,9 @@
 <META http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 <HTML>
 <HEAD>
+<LINK REL="stylesheet" TYPE="text/css" HREF="WxXOEV.css">
 <LINK REL="stylesheet" TYPE="text/css" HREF="../WmRoot/webMethods.css">
-<TITLE>XSLT</TITLE>
+<TITLE>WxXOEV</TITLE>
 <SCRIPT src="../WmRoot/webMethods.js"></SCRIPT>
    </HEAD>
    <BODY>
@@ -20,20 +21,20 @@
 
 					<TR><TD class="heading" colspan=2>File Selection</TD></TR>
 					<tr>
-						<td width="20%" class="oddrow-l"><p>Standard</p></td>
-						<td width="80%" class="oddrow-l"><p>%value standardName%</p></td>
+						<td width="20%" class="oddrow-l"><p class="label">Standard</p></td>
+						<td width="80%" class="oddrow-l"><p class="label">%value standardName%</p></td>
 					</tr>	
 					<tr>
-						<td width="20%" class="evenrow-l"><p>Version</p></td>
-						<td width="80%" class="evenrow-l"><p>%value standardVersion%</p></td>
+						<td width="20%" class="evenrow-l"><p class="label">Version</p></td>
+						<td width="80%" class="evenrow-l"><p class="label">%value standardVersion%</p></td>
 					</tr>
 					%ifvar schemaFilesAsString -notempty%						
 					<tr>
-						<td width="20%" class="oddrow-l"><p>Temporary directory</p></td>
-						<td width="80%" class="oddrow-l"><p>%value schemaTmpDir%</p></td>
+						<td width="20%" class="oddrow-l"><p class="label">Temporary directory</p></td>
+						<td width="80%" class="oddrow-l"><p class="label">%value schemaTmpDir%</p></td>
 					</tr>											
 					<tr>
-						<td width="20%" class="evenrow-l"><p>Root file</p></td>
+						<td width="20%" class="evenrow-l"><p class="label">Root file</p></td>
 						<td width="80%" class="evenrow-l">
 							<select style="width:100%" id="selectedFileIndex" name="selectedFileIndex" onchange="this.form.submit()">
 									<option value="-1" selected="true">Please select...</option>
@@ -45,8 +46,8 @@
 					</tr>
 					%else%
 					<tr>
-						<td width="20%" class="oddrow-l"><p>Result</p></td>
-						<td width="80%" class="oddrow-l"><p>No schema could be retrieved from xrepository for standard %value standardName% and version %value standardVersion%. Check <a target="_blank" href="https://www.xrepository.de/details/%value standardName%">xrepository</a> for the standard to see which versions exist.</p></td>
+						<td width="20%" class="oddrow-l"><p class="label">Result</p></td>
+						<td width="80%" class="oddrow-l"><p class="label">No schema could be retrieved from xrepository for standard %value standardName% and version %value standardVersion%. Check <a target="_blank" href="https://www.xrepository.de/details/%value standardName%">xrepository</a> for the standard to see which versions exist.</p></td>
 					</tr>					
 					%endifvar%
 			  <TR>

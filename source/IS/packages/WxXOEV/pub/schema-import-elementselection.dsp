@@ -1,8 +1,9 @@
 <META http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 <HTML>
 <HEAD>
+<LINK REL="stylesheet" TYPE="text/css" HREF="WxXOEV.css">
 <LINK REL="stylesheet" TYPE="text/css" HREF="../WmRoot/webMethods.css">
-<TITLE>XSLT</TITLE>
+<TITLE>WxXOEV</TITLE>
 <SCRIPT src="../WmRoot/webMethods.js"></SCRIPT>
    </HEAD>
    <BODY>
@@ -20,20 +21,20 @@
 
 					<TR><TD class="heading" colspan=2>Root Element Selection</TD></TR>
 					<tr>
-						<td width="20%" class="oddrow-l"><p>Standard</p></td>
-						<td width="80%" class="oddrow-l"><p>%value standardName%</p></td>
+						<td width="20%" class="oddrow-l"><p class="label">Standard</p></td>
+						<td width="80%" class="oddrow-l"><p class="label">%value standardName%</p></td>
 					</tr>	
 					<tr>
-						<td width="20%" class="evenrow-l"><p>Version</p></td>
-						<td width="80%" class="everow-l"><p>%value standardVersion%</p></td>
+						<td width="20%" class="evenrow-l"><p class="label">Version</p></td>
+						<td width="80%" class="everow-l"><p class="label">%value standardVersion%</p></td>
 					</tr>						
 					<tr>
-						<td width="20%" class="oddrow-l"><p>Temporary directory</p></td>
-						<td width="80%" class="oddrow-l"><p>%value schemaTmpDir%</p></td>
+						<td width="20%" class="oddrow-l"><p class="label">Temporary directory</p></td>
+						<td width="80%" class="oddrow-l"><p class="label">%value schemaTmpDir%</p></td>
 					</tr>
 					<tr>
-						<td width="20%" class="evenrow-l"><p>Selected File</p></td>
-						<td width="80%" class="evenrow-l"><p>%value selectedSchemaFile%</p></td>
+						<td width="20%" class="evenrow-l"><p class="label">Selected File</p></td>
+						<td width="80%" class="evenrow-l"><p class="label">%value selectedSchemaFile%</p></td>
 					</tr>						
 					<tr>
 						<td width="20%" class="oddrow-l"><p>Root Element</p></td>

@@ -28,3 +28,87 @@
     color: white;
     background-color: grey;
 }  
+
+.action input.button {
+    float: right;
+    padding: 10px;
+    background: #1776BF;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: white;
+    font-size: large;
+  }
+
+.action input.button:hover {
+    background: #CDE6F9;
+    color: #333333;
+    font-weight: bold;
+}
+
+.tableView input.text{
+    border: 1px solid  #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px #ccc;
+    height: 30px;
+    font-size: medium
+}
+
+.tableView select{
+    border: 1px solid  #ccc;
+    border-radius: 5px;
+    box-shadow: 4px 4px #ccc;
+    height: 30px;
+    font-size: medium
+}
+
+.tableView p.label{
+    font-size: medium
+}
+
+.tableView label{
+    font-size: medium;
+} 
+
+.tableView p.long-text{
+    font-size: small
+}
+
+.tableView textarea.long-text{
+    border: 1px solid  #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px #ccc;    
+    font-size: small
+}
+
+.tableView td.heading{
+    font-size: medium
+}
+
+.tableView input[type="radio"]{
+    border: 1px solid  #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px #ccc;
+    font-size: medium
+}
+
+.menusection{
+    border-collapse: collapse;
+    font-size: large;
+}
+
+.menuitem{
+    font-size: medium;
+} 
+
+.menuTable{
+    border: 1px #ccc;
+
+    box-shadow: 2px 2px #ccc;
+}
+
+.menuTable tbody{
+    border: 1px #ccc;
+    box-shadow: 2px 2px #ccc;
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="mwk">urn:xoev-de:xunternehmen:standard:mitwirkungkinder_1.0</value>
+  <value name="bn-g2g">http://xoev.de/schemata/basisnachricht/g2g/1_0</value>
+  <value name="bn-beh">http://xoev.de/schemata/basisnachricht/behoerde/1_0</value>
+  <value name="bn-kom">http://xoev.de/schemata/basisnachricht/kommunikation/1_0</value>
+  <value name="antr">urn:xoev-de:xunternehmen:standard:basismodul:antraege-anzeigen_1.1</value>
+  <value name="rf">urn:xoev-de:xunternehmen:standard:basismodul:rechtsform_1.1</value>
+  <value name="ename">urn:xoev-de:xunternehmen:standard:basismodul:eingetragenername_1.1</value>
+  <value name="wt">urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit_1.1</value>
+  <value name="eintr">urn:xoev-de:xunternehmen:standard:basismodul:eintragung_1.1</value>
+  <value name="adr">urn:xoev-de:xunternehmen:standard:basismodul:adressen_1.1</value>
+  <value name="kom">urn:xoev-de:xunternehmen:standard:basismodul:kommunikation_1.1</value>
+  <value name="np">urn:xoev-de:xunternehmen:standard:basismodul:natuerlicheperson_1.1</value>
+  <value name="dat">urn:xoev-de:xunternehmen:standard:basismodul:datumsangaben_1.1</value>
+  <value name="nachr">urn:xoev-de:xunternehmen:standard:basismodul:nachrichtenstruktur_1.1</value>
+</Values>

@@ -1,8 +1,9 @@
 <META http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 <HTML>
 <HEAD>
+<LINK REL="stylesheet" TYPE="text/css" HREF="WxXOEV.css">
 <LINK REL="stylesheet" TYPE="text/css" HREF="../WmRoot/webMethods.css">
-<TITLE>XSLT</TITLE>
+<TITLE>WxXOEV</TITLE>
 <SCRIPT src="../WmRoot/webMethods.js"></SCRIPT>
    </HEAD>
    <BODY>
@@ -18,48 +19,48 @@
 			<form name="schematronimportform" class="form" action="schematron-import-finish.dsp" method="post">
 				<TABLE width="100%" class="tableView">
 
-					<TR><TD class="heading" colspan=2>Schema Import</TD></TR>
+					<TR><TD class="heading" colspan=2>Schematron Import</TD></TR>
 					<tr>
-						<td width="20%" class="oddrow-l"><p>Standard</p></td>
-						<td width="80%" class="oddrow-l"><p>%value standardName%</p></td>
+						<td width="20%" class="oddrow-l"><p class="label">Standard</p></td>
+						<td width="80%" class="oddrow-l"><p class="label">%value standardName%</p></td>
 					</tr>	
 					<tr>
-						<td width="20%" class="evenrow-l"><p>Version</p></td>
-						<td width="80%" class="everow-l"><p>%value standardVersion%</p></td>
+						<td width="20%" class="evenrow-l"><p class="label">Version</p></td>
+						<td width="80%" class="everow-l"><p class="label">%value standardVersion%</p></td>
 					</tr>					
 					<tr>
-						<td width="20%" class="oddrow-l"><p>Temporary directory</p></td>
-						<td width="80%" class="oddrow-l"><p>%value schemaTmpDir%</p></td>
+						<td width="20%" class="oddrow-l"><p class="label">Temporary directory</p></td>
+						<td width="80%" class="oddrow-l"><p class="label">%value schemaTmpDir%</p></td>
 					</tr>
 					<tr>
-						<td width="20%" class="evenrow-l"><p>Selected File</p></td>
-						<td width="80%" class="evenrow-l"><p>%value selectedSchemaFile%</p></td>
+						<td width="20%" class="evenrow-l"><p class="label">Selected File</p></td>
+						<td width="80%" class="evenrow-l"><p class="label">%value selectedSchemaFile%</p></td>
 					</tr>						
 					<tr>
-						<td width="20%" class="oddrow-l"><p>Root Element</p></td>
-						<td width="80%" class="oddrow-l"><p>%value selectedRootElement%</p></td>
+						<td width="20%" class="oddrow-l"><p class="label">Root Element</p></td>
+						<td width="80%" class="oddrow-l"><p class="label">%value selectedRootElement%</p></td>
 					</tr>
 					<tr>
-						<td width="20%" class="evenrow-l"><p>Target Folder</p></td>
-						<td width="80%" class="evenrow-l"><p>%value importFolder%</p></td>
+						<td width="20%" class="evenrow-l"><p class="label">Target Folder</p></td>
+						<td width="80%" class="evenrow-l"><p class="label">%value importFolder%</p></td>
 					</tr>					
 					<tr>
-						<td width="20%" class="oddrow-l"><p>Target Package</p></td>
-						<td width="80%" class="oddrow-l"><p>%value selectedPackage%</p></td>
+						<td width="20%" class="oddrow-l"><p class="label">Target Package</p></td>
+						<td width="80%" class="oddrow-l"><p class="label">%value selectedPackage%</p></td>
 					</tr>					
 					<tr>
-						<td width="20%" class="evenrow-l"><p>Schematron Target Folder</p></td>
-						<td width="80%" class="evenrow-l"><p>%value schematronImportFolder%</p></td>
+						<td width="20%" class="evenrow-l"><p class="label">Schematron Target Folder</p></td>
+						<td width="80%" class="evenrow-l"><p class="label">%value schematronImportFolder%</p></td>
 					</tr>					
 					<tr>
-						<td width="20%" class="evenrow-l"><p>Schematron Rules</p></td>
-						<td width="80%" class="evenrow-l"><p>%value selectedSchematronFile%</p></td>
+						<td width="20%" class="evenrow-l"><p class="label">Schematron Rules</p></td>
+						<td width="80%" class="evenrow-l"><p class="label">%value selectedSchematronFile%</p></td>
 					</tr>							
 					<tr>
-						<td width="20%" class="evenrow-l"><p>Result</p></td>
+						<td width="20%" class="evenrow-l"><p class="label">Result</p></td>
 						<td width="80%" class="evenrow-l">
 						%loop result%
-							<p>%value result%</p>
+							<p class="long-text">%value result%</p>
 						%endloop%
 						</td>
 					</tr>					

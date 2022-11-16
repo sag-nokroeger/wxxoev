@@ -13,6 +13,7 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="WxConfig">1.10</value>
+    <value name="WmXSLT">10.11</value>
   </record>
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>

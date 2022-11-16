@@ -37,7 +37,7 @@
 						<td width="80%" class="evenrow-l"><p class="label">%value selectedSchemaFile%</p></td>
 					</tr>						
 					<tr>
-						<td width="20%" class="oddrow-l"><p>Root Element</p></td>
+						<td width="20%" class="oddrow-l"><p class="label">Root Element</p></td>
 						<td width="80%" class="oddrow-l">
 							<select style="width:100%" id="selectedElementIndex" name="selectedElementIndex" onchange="this.form.submit()">
 									<option value="-1" selected="true">Please select...</option>

@@ -13,7 +13,6 @@
             <TR>
                <TD class="menusection-Solutions" colspan=2>WxXOEV &gt; Schema Import</TD>
             </TR>
-
   	     <TR>
         	<TD>
 			%ifvar hasSchematron equals('true')%			

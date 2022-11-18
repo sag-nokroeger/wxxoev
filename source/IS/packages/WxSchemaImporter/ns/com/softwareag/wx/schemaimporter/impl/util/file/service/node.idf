@@ -55,7 +55,23 @@ CXB1YmxpYyBTdHJpbmcgZ2V0UGFja2FnZU5hbWUoKXsKCQlyZXR1cm4gcGxNYXAuZ2V0QXNTdHJp
 bmcoInBhY2thZ2VOYW1lIik7Cgl9CgkKCXB1YmxpYyBTdHJpbmcgZ2V0Rm9sZGVyTmFtZSgpewoJ
 CXJldHVybiBwbE1hcC5nZXRBc1N0cmluZygiZm9sZGVyTmFtZSIpOwoJfQoJCglwdWJsaWMgU3Ry
 aW5nIGdldERvY3R5cGVOYW1lKCl7CgkJcmV0dXJuIHBsTWFwLmdldEFzU3RyaW5nKCJkb2N0eXBl
-TmFtZSIpOwoJfQp9OwkKCQ==</value>
+TmFtZSIpOwoJfQp9OwoKcHJpdmF0ZSBzdGF0aWMgY2xhc3MgU3RvcmVTY2hlbWFBc1RlbXBvcmFy
+eUZpbGVJbnB1dHsKCXByaXZhdGUgSURhdGFNYXAgcGxNYXA7CgkKCXB1YmxpYyBTdG9yZVNjaGVt
+YUFzVGVtcG9yYXJ5RmlsZUlucHV0KElEYXRhIHBpcGVsaW5lKXsKCQlwbE1hcCA9IG5ldyBJRGF0
+YU1hcChwaXBlbGluZSk7Cgl9CgkKCXB1YmxpYyBTdHJpbmcgZ2V0U2NoZW1hVGVtcERpck9yRGVm
+YXVsdCgpewoJCXJldHVybiBwbE1hcC5nZXRBc1N0cmluZygic2NoZW1hVG1wRGlyIiwgU3lzdGVt
+LmdldFByb3BlcnR5KCJqYXZhLmlvLnRtcGRpciIpK0ZpbGUuc2VwYXJhdG9yK1VVSUQucmFuZG9t
+VVVJRCgpLnRvU3RyaW5nKCkpOwoJfQoJCglwdWJsaWMgSW5wdXRTdHJlYW0gZ2V0U2NoZW1hQ29u
+dGVudCgpewoJCXJldHVybiAoSW5wdXRTdHJlYW0pIHBsTWFwLmdldCgic2NoZW1hQ29udGVudCIp
+OwoJfQoJCglwdWJsaWMgU3RyaW5nIGdldFNjaGVtYUZpbGVOYW1lKCl7CgkJcmV0dXJuIHBsTWFw
+LmdldEFzU3RyaW5nKCJzY2hlbWFGaWxlTmFtZSIpOwoJfQp9Cgpwcml2YXRlIHN0YXRpYyBjbGFz
+cyBTdG9yZVNjaGVtYUFzVGVtcG9yYXJ5RmlsZU91dHB1dHsKCXByaXZhdGUgSURhdGFNYXAgcGxN
+YXA7CgkKCXB1YmxpYyBTdG9yZVNjaGVtYUFzVGVtcG9yYXJ5RmlsZU91dHB1dChJRGF0YSBwaXBl
+bGluZSl7CgkJcGxNYXAgPSBuZXcgSURhdGFNYXAocGlwZWxpbmUpOwoJfQoJCglwdWJsaWMgdm9p
+ZCBzZXRTY2hlbWFUbXBEaXIoU3RyaW5nIHNjaGVtYVRtcERpcil7CgkJcGxNYXAucHV0KCJzY2hl
+bWFUbXBEaXIiLCBzY2hlbWFUbXBEaXIpOwoJfQoJCglwdWJsaWMgdm9pZCBzZXRPdXRGaWxlUGF0
+aChTdHJpbmcgb3V0RmlsZVBhdGgpewoJCXBsTWFwLnB1dCgib3V0RmlsZVBhdGgiLCBvdXRGaWxl
+UGF0aCk7Cgl9Cn0KCQ==</value>
   <value name="encodeutf8">true</value>
   <value name="extends"></value>
   <array name="implements" type="value" depth="1">
@@ -63,9 +79,12 @@ TmFtZSIpOwoJfQp9OwkKCQ==</value>
   <array name="imports" type="value" depth="1">
     <value>java.io.File</value>
     <value>java.io.FileInputStream</value>
+    <value>java.io.FileNotFoundException</value>
     <value>java.io.FileOutputStream</value>
     <value>java.io.IOException</value>
+    <value>java.io.InputStream</value>
     <value>java.io.UnsupportedEncodingException</value>
+    <value>java.util.UUID</value>
     <value>com.softwareag.util.IDataMap</value>
   </array>
 </Values>

@@ -30,6 +30,7 @@
 			  <TR>
 				<TD class="action" colspan="2">
 					<INPUT type="hidden" name="action" value="import"/>
+					<INPUT type="hidden" name="schemaType" value="xoev"/>
 				  	<INPUT class="button" type="submit" name="import" value="Start import"/>
 				</TD>
 			  </TR>									

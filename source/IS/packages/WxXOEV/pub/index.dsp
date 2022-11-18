@@ -21,7 +21,7 @@
   <div><iframe class="top" src="top.dsp" id="top"></iframe></div>
   <div class="bottom">
     <iframe class="menuframe" name="menu" src="menu.dsp" scrolling="yes" seamless="seamless"></iframe>
-    <iframe class="contentframe" name="body" id="body" src="schema-import.dsp"></iframe>
+    <iframe class="contentframe" name="body" id="body" src="../WxSchemaImporter/schema-import.dsp"></iframe>
   </div>
 </body>
 </html>

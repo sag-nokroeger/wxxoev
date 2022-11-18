@@ -112,3 +112,55 @@
     box-shadow: 2px 2px #ccc;
 }
 
+.fileinput{
+    display: none;
+} 
+
+.fileinput-area {
+    display: flex;
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    width: 480px;
+    float: left;
+    color: #ccc;
+    align-items: center;
+    justify-content: left;
+} 
+
+.fileinput-area p {
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: #ccc;
+    font-size: large;
+} 
+
+.fileinput-area.highlight {
+    border-color: #1776BF;
+    color: #1776BF;
+}
+
+.fileinput-area.fileinput-area.highlight p {
+    vertical-align: middle;
+    color: #1776BF;
+}
+
+
+.fileinput-area .button {
+    float: left;
+    vertical-align: middle;
+    padding: 10px;
+    background: #1776BF;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    color: white;
+    font-size: large;
+  }
+
+.fileinput-area .button:hover {
+    background: #CDE6F9;
+    color: #333333;
+    font-weight: bold;
+}
+

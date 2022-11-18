@@ -24,14 +24,18 @@
 				<TABLE width="100%" class="tableView">
 
 					<TR><TD class="heading" colspan=2>Schema Import</TD></TR>
+					%ifvar standardName -notempty%
 					<tr>
 						<td width="20%" class="oddrow-l"><p class="label">Standard</p></td>
 						<td width="80%" class="oddrow-l"><p class="label">%value standardName%</p></td>
-					</tr>	
+					</tr>
+					%endifvar%
+					%ifvar standardVersion -notempty%	
 					<tr>
 						<td width="20%" class="evenrow-l"><p class="label">Version</p></td>
-						<td width="80%" class="everow-l"><p class="label">%value standardVersion%</p></td>
-					</tr>					
+						<td width="80%" class="evenrow-l"><p class="label">%value standardVersion%</p></td>
+					</tr>
+					%endifvar%				
 					<tr>
 						<td width="20%" class="oddrow-l"><p class="label">Temporary directory</p></td>
 						<td width="80%" class="oddrow-l"><p class="label">%value schemaTmpDir%</p></td>
@@ -60,6 +64,7 @@
 						%endloop%
 						</td>
 					</tr>
+					%ifvar schemaType equals('xoev')%
 					%ifvar hasSchematron equals('true')%
 					<tr>
 						<td width="20%" class="evenrow-l"><p class="label">Schematron Target Folder</p></td>
@@ -91,6 +96,7 @@
 						</td>
 					<tr>
 					%endifvar%
+					%endifvar%
 			  <TR>
 				<TD class="action" colspan="2">
 					  %ifvar hasSchematron equals('true')%
@@ -113,6 +119,7 @@
 					  <INPUT type="hidden" name="xmlNamespace" value="%value xmlNamespace%"/>		  
 					  <INPUT type="hidden" name="doctypeName" value="%value doctypeName%"/>		  					  					  
 					  <INPUT type="hidden" name="importFolder" value="%value importFolder%"/>
+					  <INPUT type="hidden" name="schemaType" value="%value schemaType%"/>			  
 				  	<!--<INPUT class="button" type="submit" name="continue" value="Continue"/>-->
 				</TD>
 			  </TR>					

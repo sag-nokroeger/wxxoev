@@ -53,13 +53,18 @@ public final class service
 		byte[] buffer = new byte[1024];
 		List<String> schemaPaths = new LinkedList<String>();
 		List<String> schemaFiles = new LinkedList<String>();
+		FileWriter logWriter = null;
 		try {
+			logWriter = new FileWriter("/tmp/unzip.log");
 			entry = zis.getNextEntry();
-		
+			logWriter.write("Start unzipping.");
+			logWriter.flush();
 			File destDir = new File(System.getProperty("java.io.tmpdir")+File.separator+UUID.randomUUID());
 			destDir.mkdirs();
 			output.setSchemaTmpDir(destDir.getAbsolutePath());
 			while (entry != null){
+				logWriter.write("Unzipping entry: "+entry.getName());
+				logWriter.flush();				
 				File destFile = new File(destDir, entry.getName());
 				if (!destFile.getCanonicalPath().startsWith(destDir.getCanonicalPath())){
 					throw new IOException("File in zip archive would be extracted outside of target directory: "+entry.getName());
@@ -85,6 +90,7 @@ public final class service
 					schemaPaths.add(destFile.getAbsolutePath());
 					schemaFiles.add(destFile.getName());
 				}
+				zis.closeEntry();
 				entry = zis.getNextEntry();
 			}		
 			output.setSchemaFiles(schemaFiles.toArray(new String[schemaFiles.size()]));
@@ -93,6 +99,16 @@ public final class service
 			zis.close();
 		} catch (IOException e) {
 			throw new ServiceException("Failed to extract XOEV xsd package: "+e.getMessage());
+		}
+		finally{
+			if (logWriter != null){
+				try {
+					logWriter.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
 		}
 		// --- <<IS-END>> ---
 

@@ -20,14 +20,18 @@
 				<TABLE width="100%" class="tableView">
 
 					<TR><TD class="heading" colspan=2>Root Element Selection</TD></TR>
+					%ifvar standardName -notempty%
 					<tr>
 						<td width="20%" class="oddrow-l"><p class="label">Standard</p></td>
 						<td width="80%" class="oddrow-l"><p class="label">%value standardName%</p></td>
 					</tr>	
+					%endifvar%
+					%ifvar standardVersion -notempty%
 					<tr>
 						<td width="20%" class="evenrow-l"><p class="label">Version</p></td>
 						<td width="80%" class="everow-l"><p class="label">%value standardVersion%</p></td>
-					</tr>						
+					</tr>	
+					%endifvar%					
 					<tr>
 						<td width="20%" class="oddrow-l"><p class="label">Temporary directory</p></td>
 						<td width="80%" class="oddrow-l"><p class="label">%value schemaTmpDir%</p></td>
@@ -57,7 +61,8 @@
 					  <INPUT type="hidden" name="selectedSchemaFile" value="%value selectedSchemaFile%"/>
 					  <INPUT type="hidden" name="selectedFileIndex" value="%value selectedFileIndex%"/>
 					  <INPUT type="hidden" name="standardName" value="%value standardName%"/>
-					  <INPUT type="hidden" name="standardVersion" value="%value standardVersion%"/>					  
+					  <INPUT type="hidden" name="standardVersion" value="%value standardVersion%"/>		
+					  <INPUT type="hidden" name="schemaType" value="%value schemaType%"/>			  
 				  	<!--<INPUT class="button" type="submit" name="continue" value="Continue"/>-->
 				</TD>
 			  </TR>									

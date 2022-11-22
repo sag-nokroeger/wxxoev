@@ -34,6 +34,22 @@ public final class service
 
 
 
+	public static final void clearTemporarySchemaDirectory (IData pipeline)
+        throws ServiceException
+	{
+		// --- <<IS-START(clearTemporarySchemaDirectory)>> ---
+		// @sigtype java 3.5
+		// [i] field:0:required schemaTmpDir
+		IDataMap plMap = new IDataMap(pipeline);
+		File schemaTmpDir = new File(plMap.getAsString("schemaTmpDir"));
+		deleteRecursive(schemaTmpDir);
+		// --- <<IS-END>> ---
+
+                
+	}
+
+
+
 	public static final void getNsDeclaraionsFromResource (IData pipeline)
         throws ServiceException
 	{
@@ -169,6 +185,18 @@ public final class service
 	}
 
 	// --- <<IS-START-SHARED>> ---
+	private static void deleteRecursive(File f){
+		if (f.isDirectory()){
+			for (File c : f.listFiles()){
+				deleteRecursive(c);
+			}
+			f.delete();
+		}
+		else{
+			f.delete();
+		}
+	}
+	
 	private static class GetNsDeclarationsFromResourceOutput{
 		private IDataMap plMap;
 		

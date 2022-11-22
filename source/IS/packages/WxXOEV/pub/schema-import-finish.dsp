@@ -119,7 +119,8 @@
 					  <INPUT type="hidden" name="xmlNamespace" value="%value xmlNamespace%"/>		  
 					  <INPUT type="hidden" name="doctypeName" value="%value doctypeName%"/>		  					  					  
 					  <INPUT type="hidden" name="importFolder" value="%value importFolder%"/>
-					  <INPUT type="hidden" name="schemaType" value="%value schemaType%"/>			  
+					  <INPUT type="hidden" name="schemaType" value="%value schemaType%"/>		
+					  <INPUT type="hidden" name="schematronTmpDir" value="%value schematronTmpDir%"/>	  
 				  	<!--<INPUT class="button" type="submit" name="continue" value="Continue"/>-->
 				</TD>
 			  </TR>					

@@ -5,7 +5,10 @@
   <value name="node_subtype">unknown</value>
   <value name="node_nsName">com.softwareag.wx.schemaimporter.impl.util.file.service</value>
   <value name="is_public">false</value>
-  <value name="shared">cHJpdmF0ZSBzdGF0aWMgY2xhc3MgR2V0TnNEZWNsYXJhdGlvbnNGcm9tUmVzb3VyY2VPdXRwdXR7
+  <value name="shared">cHJpdmF0ZSBzdGF0aWMgdm9pZCBkZWxldGVSZWN1cnNpdmUoRmlsZSBmKXsKCWlmIChmLmlzRGly
+ZWN0b3J5KCkpewoJCWZvciAoRmlsZSBjIDogZi5saXN0RmlsZXMoKSl7CgkJCWRlbGV0ZVJlY3Vy
+c2l2ZShjKTsKCQl9CgkJZi5kZWxldGUoKTsKCX0KCWVsc2V7CgkJZi5kZWxldGUoKTsKCX0KfQoK
+cHJpdmF0ZSBzdGF0aWMgY2xhc3MgR2V0TnNEZWNsYXJhdGlvbnNGcm9tUmVzb3VyY2VPdXRwdXR7
 Cglwcml2YXRlIElEYXRhTWFwIHBsTWFwOwoJCglwdWJsaWMgR2V0TnNEZWNsYXJhdGlvbnNGcm9t
 UmVzb3VyY2VPdXRwdXQoSURhdGEgcGlwZWxpbmUpewoJCXBsTWFwID0gbmV3IElEYXRhTWFwKHBp
 cGVsaW5lKTsKCX0KCQoJcHVibGljIHZvaWQgc2V0TnNEZWNsc0FzWE1MKFN0cmluZyBuc0RlY2xB

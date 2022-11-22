@@ -82,6 +82,7 @@
 					  <INPUT type="hidden" name="selectedPackage" value="%value selectedPackage%"/>		  
 					  <INPUT type="hidden" name="xmlNamespace" value="%value xmlNamespace%"/>		  
 					  <INPUT type="hidden" name="doctypeName" value="%value doctypeName%"/>		  					  					  
+					  <INPUT type="hidden" name="schematronTmpDir" value="%value schematronTmpDir%"/>		  					  					  
 				  	<!--<INPUT class="button" type="submit" name="continue" value="Continue"/>-->
 				</TD>
 			  </TR>					

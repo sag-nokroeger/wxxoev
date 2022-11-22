@@ -21,13 +21,19 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
-          password: ${{ secrets.GHIO_TOKEN }}    
+          password: ${{ secrets.GHIO_TOKEN }}  
+      - name: Docker metadata
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: |
+            ${{ github.repository_owner }}/wxxoev
+            ghcr.io/${{ github.repository_owner }}/wxxoev
+          tags: |
+            type=ref,event=tag
+            type=sha          
       - name: Build container
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: |
-            sag-nokroeger/wxxoev:latest
-            sag-nokroeger/wxxoev:${{ github.ref }}
-            ghcr.io/sag-nokroeger/wxxoev:latest
-            ghcr.io/sag-nokroeger/wxxoev:${{ github.ref }}            
+          tags: ${{ steps.meta.outputs.tags }}           

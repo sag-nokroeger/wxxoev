@@ -10,3 +10,7 @@ COPY --from=builder --chown=sagadmin:sagadmin /opt/softwareag/IntegrationServer/
 COPY --chown=sagadmin:sagadmin source/IS/package-configs /opt/softwareag/IntegrationServer/packages
 COPY --chown=sagadmin:sagadmin source/IS/packages /opt/softwareag/IntegrationServer/packages
 
+WORKDIR /opt/softwareag/IntegrationServer/bin
+RUN ./jcode.sh makeall WxSchemaImporter && ./jcode.sh makeall WxXOEV
+WORKDIR /
+

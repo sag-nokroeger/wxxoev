@@ -3,7 +3,7 @@ Derived from XÖV (=*X*ML in der *ö*ffentlichen *V*erwaltung) this module helps
 
 The main features are:
 
-* Guided import of XML schemas from [xrepository] (www.xrepository.de) based on standard name and version
+* Guided import of XML schemas from [xrepository](www.xrepository.de) based on standard name and version
 * Import of schematron rules associated with the imported schema if present in xrepository
 * Import of general XML schemas from files
 * Validation of XML documents

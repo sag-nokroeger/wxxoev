@@ -132,6 +132,23 @@ public final class service
 
 
 
+	public static final void storeSchema (IData pipeline)
+        throws ServiceException
+	{
+		// --- <<IS-START(storeSchema)>> ---
+		// @sigtype java 3.5
+		// [i] object:0:required schemaContent
+		// [i] field:0:required schemaFilePath
+		StoreSchemaInput input = new StoreSchemaInput(pipeline);
+		storeSchema(new File(input.getSchemaFilePath()), input.getSchemaContent());
+			
+		// --- <<IS-END>> ---
+
+                
+	}
+
+
+
 	public static final void storeSchemaAsTemporaryFile (IData pipeline)
         throws ServiceException
 	{
@@ -151,40 +168,60 @@ public final class service
 		throw new ServiceException("Failed to create temporary directory "+schemaTmpDirFile.getAbsolutePath()+" for schema upload.");
 	}
 	File outfile = new File(schemaTmpDir+File.separator+input.getSchemaFileName());
-	FileOutputStream fos = null;
-	byte[] buffer = new byte[1024];
-	
-	try {
-		fos = new FileOutputStream(outfile);
-		InputStream fis = input.getSchemaContent();
-		int bufferLength;
-		while ((bufferLength = fis.read(buffer)) > 0){
-			fos.write(buffer, 0, bufferLength);
-			fos.flush();
-		}
-		output.setOutFilePath(outfile.getAbsolutePath());
-		output.setSchemaTmpDir(schemaTmpDir);
-	} catch (FileNotFoundException e) {
-		throw new ServiceException("Failed to write to output stream "+outfile.getAbsolutePath()+": "+e.getMessage());
-	} catch (IOException e) {
-		throw new ServiceException("Failed to write schema to output stream "+outfile.getAbsolutePath()+": "+e.getMessage());
-	}
-	finally{
-		if (fos != null){
-			try {
-				fos.close();
-			} catch (IOException e) {
-				throw new ServiceException("Failed to close output stream on "+outfile.getAbsolutePath()+": "+e.getMessage());
-			}	
-		}
-		
-	}
+	storeSchema(outfile, input.getSchemaContent());
+	output.setOutFilePath(outfile.getAbsolutePath());
+	output.setSchemaTmpDir(schemaTmpDir);
 		// --- <<IS-END>> ---
 
                 
 	}
 
 	// --- <<IS-START-SHARED>> ---
+	private static class StoreSchemaInput{
+		private IDataMap plMap;
+		
+		public StoreSchemaInput(IData pipeline){
+			plMap = new IDataMap(pipeline);
+		}
+		
+		public InputStream getSchemaContent(){
+			return (InputStream) plMap.get("schemaContent");
+		}
+		
+		public String getSchemaFilePath(){
+			return plMap.getAsString("schemaFilePath");
+		}
+	}
+	
+	private static void storeSchema(File outfile, InputStream schemaContent) throws ServiceException{
+		FileOutputStream fos = null;
+		byte[] buffer = new byte[1024];
+		
+		try {
+			fos = new FileOutputStream(outfile);
+			InputStream fis = schemaContent;
+			int bufferLength;
+			while ((bufferLength = fis.read(buffer)) > 0){
+				fos.write(buffer, 0, bufferLength);
+				fos.flush();
+			}
+		} catch (FileNotFoundException e) {
+			throw new ServiceException("Failed to write to output stream "+outfile.getAbsolutePath()+": "+e.getMessage());
+		} catch (IOException e) {
+			throw new ServiceException("Failed to write schema to output stream "+outfile.getAbsolutePath()+": "+e.getMessage());
+		}
+		finally{
+			if (fos != null){
+				try {
+					fos.close();
+				} catch (IOException e) {
+					throw new ServiceException("Failed to close output stream on "+outfile.getAbsolutePath()+": "+e.getMessage());
+				}	
+			}
+			
+		}		
+	}	
+	
 	private static void deleteRecursive(File f){
 		if (f.isDirectory()){
 			for (File c : f.listFiles()){
@@ -339,6 +376,8 @@ public final class service
 			plMap.put("outFilePath", outFilePath);
 		}
 	}
+	
+	
 		
 	// --- <<IS-END-SHARED>> ---
 }

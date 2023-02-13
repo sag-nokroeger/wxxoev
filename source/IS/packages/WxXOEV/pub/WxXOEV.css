@@ -29,6 +29,16 @@
     background-color: grey;
 }  
 
+#wxxoev-serverconfiguration-header.heading-serverconfigurationok-true{
+    color: white;
+    background-color: green;
+} 
+
+#wxxoev-serverconfiguration-header.heading-serverconfigurationok-false{
+    color: white;
+    background-color: red;
+} 
+
 .action input.button {
     float: right;
     padding: 10px;

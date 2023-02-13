@@ -34,7 +34,7 @@ function initMenu(firstImage) {
 
 </HEAD>
 
-<BODY CLASS="menu" onload="initMenu('../WxSchemaImport/schema-import2.dsp');">
+<BODY CLASS="menu" onload="initMenu('../WxSchemaImport/schema-import.dsp');menuSelect(this, 'wxxml_schema-import.dsp'); document.all['awxxml_schema-import.dsp'].click();">
     <form name="urlsaver">
       <input type="hidden" name="helpURL" value="doc/OnlineHelp/WmRoot.htm#CS_Server_Statistics.htm">
     </form>
@@ -86,15 +86,33 @@ function initMenu(firstImage) {
             </script>
                               
         </td>
-      </tr>    
+      </tr>   
+      
+               <tr name="WxXML_subMenu" style="display: table-row;">
+  <td id="iconfiguration.dsp" class="menuitem " onmouseover="menuMouseOver(this, 'configuration.dsp');" onmouseout="menuMouseOut(this, 'configuration.dsp');" onclick="menuSelect(this, 'configuration.dsp'); document.all['configuration.dsp'].click();">
+            
+          
+          
+            <script>
+              if (is_csrf_guard_enabled && needToInsertToken) {
+                createFormWithTargetAndSetProperties("htmlform_menu_subelement_WxXML_Configuration", "configuration.dsp", "POST", "BODY", "body");
+                setFormProperty("htmlform_menu_subelement_WxXML_Configuration", _csrfTokenNm_, _csrfTokenVal_);
+                document.write('<a id="aconfiguration.dsp" href="javascript:htmlform_menu_subelement_WxXML_Configuration.submit()"> Configuration </a>');
+              } else {
+                document.write('<a id="aconfiguration.dsp" target="body" href="configuration.dsp"> Configuration </a>');
+              }
+            </script>
+                              
+        </td>
+      </tr>   
 
-          <tr manualhide="true" onclick="toggle(this, 'WxXOEV_subMenu', 'WxXOEV_twistie');" onmouseover="this.className='cursor';" class="cursor">
-            <td class="menusection" id="elmt_WxXOEV_subMenu" style="background-color: rgb(255, 255, 255); color: rgb(20, 98, 159);"">
+          <tr manualhide="true" onclick="toggle(this, 'WxXOEV_subMenu', 'WxXOEV_twistie');menuSelect(this, 'schema-import.dsp'); document.all['aschema-import.dsp'].click();" onmouseover="this.className='cursor';" class="cursor">
+            <td class="menusection" id="elmt_WxXOEV_subMenu" style="background-color: rgb(255, 255, 255); color: rgb(20, 98, 159);">
               <img id="WxXOEV_twistie" src="../WmRoot/images/collapsed_blue.gif">
               &nbsp;
               WxXOEV
             </td>
-          </tr>
+          </tr>          
       
       
         <tr name="WxXOEV_subMenu" style="display: none;">

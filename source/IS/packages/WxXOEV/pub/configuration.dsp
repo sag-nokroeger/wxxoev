@@ -10,7 +10,7 @@
       <DIV class="position">
          <TABLE WIDTH="100%">
             <TR>
-               <TD class="menusection-Solutions" colspan=2>WxXOEV &gt; Configuration</TD>
+               <TD class="menusection-Solutions" colspan=2>WxXML &gt; Configuration</TD>
             </TR>
 
 	  	     <TR>
